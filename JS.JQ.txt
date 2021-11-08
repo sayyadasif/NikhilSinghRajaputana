@@ -1,0 +1,703 @@
+JAVA SCRIPT::
+
+===============================
+
+NOTE:Each day is saparated by Spaces.
+
+
+Summup:19/10/21::
+>> defalt declaration,function[1].
+>>Display possitions[2]
+>>variable declaration types[3]
+>>Syntax,comment
+>>operaters
+>>Data types,[4]
+-----
+
+Summup:20/10/21::
+>>Events
+>>js objects
+  >use of odj
+  >use of fun in variable declaration(help of 'THIS')
+>>if/else nested if.
+>>Switch.
+>>react basikk....dom..(Real/virtual)
+-------
+
+Summup:21/10/21
+>>for loop
+>>js template creation using For loop & let x=/x+= (adding it to same var)
+>>use of html tages in js.( by ""  or by ``)
+>>Arrays
+>>string methods<length,slice,concate,... 
+-----
+25:react app create dummy template
+>>random
+------
+summup:26/27
+>>typeof
+>>Constructot:reterns function for variable/object
+>>type convrtions
+>>Bit wise(&and , |or)
+>>Regular expressions--search,replace
+>>blockscope
+-----
+summup28:
+>>map()
+>>set()
+>>polymorphism
+>>json
+>>classs
+>>array(shift-remove 1st element,pop remove last element)
+     add elements at first -array. unshift//last push
+----
+summup::1/11
+>>arrowfunction--> behavier
+>>Destructuring in Js
+>> console.log(),alert();
+
+**===============**=============================**====================**==========================**====================
+now basic thing time stamp and latitude and longitude creation.
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+//to chang the script:
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+//for image loading and changing:
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+//for increase in font size,color:
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+
+// use [document.getElementById('non1').style.display="none"/.style.display="block"]
+
+***********////////Function intro/////******
+
+-->declare in html and in scripts
+EX:
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+//function syntax:
+*1)function myfunction() {}
+*2)function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+[2]*****//////js display possibilities////////******
+
+
+Writing into an HTML element, using- innerHTML.
+print text,replace text....,
+
+Writing into the HTML output using document.write().
+print given value directly
+
+Writing into an alert box, using window.alert().
+popup in the window may contain result or message
+
+Writing into the browser console, using console.log()
+stores the value,result or message in console
+
+window.print()--print the page.
+
+
+*******/////basic syntax,variabules,comments///////******
+
+*COMMENTS:could be done by [//singleline,  /*multiline*/]
+
+*VARIABULES:
+      
+       JavaScript Values
+The JavaScript syntax defines two types of values:
+
+1)Fixed values
+2)Variable values
+Fixed values are called Literals.
+ they are number,string assined directly
+like: document.write='10.5'
+       document.write='my name is khan'
+Variable values are called Variables
+       assined to a variable
+  Like:a=10;b=20; which could be reassined at any part.
+    
+
+   Declaration:(var,let,const)
+      *)diffrence <var,let> in let xcan be declared once but in var it can be declared multiple times.
+      *)Hosting EX:carName = "Volvo";var carName; ---it works
+            carName = "Volvo";let carName;--not work
+                  #1 let x,y,z;
+                  EX: <p id="demo"></p>
+                 
+                  #2 var x,y;
+                      x=5,y=6;
+                  #3 const
+   Variables defined with const cannot be Redeclared.
+
+   Variables defined with const cannot be Reassigned.
+
+   Variables defined with const have Block Scope.
+    
+   Constant Objects:is like dictionary in python.
+
+   EX:// You can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// You can change a property:
+car.color = "red";
+
+// You can add a property:
+car.owner = "Johnson";
+// Display the property:
+//document.getElementById("demo").innerHTML = "Car owner is " + car.owner;
+document.getElementById("demo").innerHTML = car.color;
+                   
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";  
+</script>;
+
+Syntax:  #1variabules declared should end with ';';
+    EX:let x,y,z;
+         x=5;
+   #2 White Space: multiple spaces are ignored by the js.
+      let person =    "Hege";//both are same
+      let person="Hege";
+
+   #3 blocking collection of multiple code of js in a single block
+   #4 it is a case sensitive it is capital letter saperated.
+   #5 syntax for variable declaration.
+         A letter (A-Z or a-z)
+         A dollar sign ($)
+          Or an underscore (_)
+   #6 syntax of function::function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+=============================================================
+4)DATA TYPES:
+ They are basically 3types numbers string objectives 
+ objectives star with {} and are like dictionaries in python.
+  ->holdings:: means variables in let and cons cannot be used before declaration.but var could be used.
+arrays are declared in []
+==========================================================
+
+
+
+
+
+
+
+
+
+
+============================================================
+EVENTS:
+
+Event	Description
+onchange:	An HTML element has been changed
+onclick	The user clicks an HTML element
+
+
+onmouseover	The user moves the mouse over an HTML element
+onmouseout	The user moves the mouse away from an HTML element
+onkeydown	The user pushes a keyboard key
+onload	The browser has finished loading the page
+
+============
+js Objects:*)basic syntax:note:(could be used with cons,var,let)
+           *)input the alues.
+           *)store the values in a table.
+           *) The 'This' Keyword:
+               
+In a function definition, this refers to the "owner" of the function.
+
+In the example above, this is the person object that "owns" the fullName function.
+
+In other words, this.firstName means the firstName property of this object.
+
+EX:<p id="demo"></p>
+
+<script>
+// Create an object:
+//***Function can be written inside a var-declaration as shown****
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+
+*******This
+
+<button onclick="this.innerHTML=Date()">The time is?</button>
+================================
+STRING:
+
+#string length:
+<p id="demo"></p>
+
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+#Escape Character:it is used to over come the huddels of """this type of situation.we use/  / at point to escape.
+EX:<p id="demo"></p>
+
+<script>
+let text = "We are the so-called \"Vikings\" from the north.";
+document.getElementById("demo").innerHTML = text; 
+</script>
+******
+let text= 'It\'s alright.';
+******
+\b	Backspace
+\f	Form Feed
+\n	New Line
+\r	Carriage Return
+\t	Horizontal Tabulator
+\v	Vertical Tabulator
+
+
+
+=========================
+IF/Else & Nested IF:
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if .. else</h2>
+
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+//let time1 =11;
+if (time < 12) {
+  greeting = "Good morning " + time +"AM";
+} else if (time < 17) {
+  greeting = "Good Day "+time + "PM";
+} else {
+  greeting = "Good night" +time + "PM";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
+
+=============================
+**Switch**
+EX:
+
+<!DOCTYPE html>
+<html>
+<body style="background:tomato; color:;">
+
+<h2>JavaScript switch</h2>
+
+<h2 id="demo"></h2>
+
+<script>
+let text;
+switch (new Date().getDay()) {
+  case 3:text="2days for weakend";break;
+  case 4:text="1days for a weakend";break;
+  case 2:text="3days for a weak end";break;
+  case 1:text="4days to go for a weakend";break;
+  case 5:
+    text = "1 day ";
+    break;
+  case 0:
+  case 6:
+    text = "It is Weekend";
+    break;
+  default:
+    text = "Looking forward to the Weekend";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+===========================
+FOR LOOP::
+  general syntax:(3)::for
+                                  for/in
+                                   for/of
+
+FOR::
+
+EX:<p id="demo"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text +=[i]+') '+cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+----------------.
+<p id="demo"></p>
+
+<script>
+let language = "JavaScript";
+
+let text = "";
+for (let x of language) {
+  text +="<h4 style='color:red;text-align: center;' >"+ x + "</h4>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+------------
+<p id="demo"></p>
+
+<script>
+// Create a String
+const name = "W3Schools";
+
+// List all Elements
+let text = ""
+for (const x of name) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+--------------------------
+Type CConvertions:
+to no::
+EX:x="john" //is string
+y= +x //now it is number
+
+TO string
+EX: let x=5 //no
+string(x)  //now it is string
+  or
+x.to string()
+------------------------------
+RREGULAR EXPRESSIONS(SEARCH(),REPLACE())::
+
+
+EX: <p id="demo"></p>
+
+<script>
+let text = "Visit W3Schools!"; 
+let n = text.search(/w3Schools/i);
+document.getElementById("demo").innerHTML = n;
+</script>
+
+
+REPLACE()::
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo">Please visit Microsoft!</p>
+
+<script>
+function myFunction() {
+  let text = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML =
+  text.replace("Microsoft","W3Schools");
+}
+</script>
+-------------------
+error handling:
+
+The try statement lets you test a block of code for errors.
+
+The catch statement lets you handle the error.
+
+The throw statement lets you create custom errors.
+
+The finally statement lets you execute code, after try and catch, regardless of the result.
+---------------------------
+Arrow funcions::
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Function</h2>
+
+<p>This example shows the syntax of a function, without the use of arrow function syntax.</p>
+
+<p id="demo"></p>
+<p id ="demo1"></p>
+<p id= "demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<script>
+var hello;
+
+hello = function() {
+  return "Hello World!";
+}
+
+document.getElementById("demo").innerHTML = hello();
+
+//arrow function return
+hell = ()=>{
+return "name is niki"
+}
+document.getElementById("demo1").innerHTML = hell();
+//arrow function return simplified 
+he = ()=> "Name in Singh";
+
+document.getElementById("demo2").innerHTML = he();
+
+//Arrow function rturn with a var
+me = (val)=> "Name is" + val
+document.getElementById("demo3").innerHTML = me(" NIKI" );
+
+</script>
+
+</body>
+</html>
+------------------------------
+DESTRUCTURING::
+//it is used to reduce the length of var declaration.
+const name     = hero.name;
+const realName = hero.realName;
+// is equivalent to:
+const { name, realName } = hero;
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+<script>
+/*//1) property to variable
+const hero = {
+  name: 'Batman',
+  realName: 'Bruce Wayne'
+};
+const { name, realName } = hero;
+name;     // => 'Batman',
+realName; // => 'Bruce Wayne'
+
+document.getElementById("demo").innerHTML=name;
+console.log(name);
+
+alert(name)*/
+/*
+//2)multiple properties to var
+const hero1 = {
+  name: 'Batman',
+  realName: 'Bruce Wayne' ,
+  city:'Gotham' ,
+  eneamy:'jocker' ,
+  policeman:'james gordan',
+  wepon:'smart tech'
+  
+};
+const {name, realName,city,eneamy,policeman,wepon} = hero1;
+alert(city,eneamy)
+//multiple alearts in same box
+alert( "Name: "+ name + '\n' +  
+                     "RealName: " + realName + '\n' +  
+                        "City: " + city 
+
+); **/
+/*
+//3)Defalt value 
+const hero = {
+  name: 'Batman',
+  realName: 'Bruce Wayne'
+};
+//assine value to undefined var
+const { enemies = ['Joker'] } = hero;
+
+alert(enemies) */
+
+//4). Aliases
+ // means assining same value to two var
+/* 
+ const hero = {
+  name: 'Batman',
+  realName: 'Bruce Wayne'
+};
+const { realName: secretName } = hero;
+alert(secretName); // => 'Bruce Wayne'
+*/
+/*
+//5)Extracting properties from nested objects
+ 
+ const hero = {
+  name: 'Batman',
+  realName: 'Bruce Wayne',
+  address: {
+    city: 'Gotham'
+  }
+};
+// Object destructuring:
+const { address: { city } } = hero;
+alert(city) // => 'Gotham'
+
+*/
+
+/*
+//6) rest after destructuring
+
+const hero = {
+  name: 'Batman',
+  realName: 'Bruce Wayne'
+};
+const { name, ...realHero } = hero;
+alert(realHero); // => { realName: 'Bruce Wayne' }
+
+document.getElementById("demo").innerHTML= realNero;
+
+*/
+/*
+//7) function parameter
+
+const heroes = [
+  { name: 'Batman' },
+  { name: 'Joker' }
+];
+//passing names as parameter for 'N' names and making it a /to a list
+const names1 = heroes.map(
+  function({ name }) {
+    return name;
+  }
+);
+
+alert(names1)
+
+*/
+
+
+</script>
+
+</body>
+</html>
+-----------------------------------
+<*******for print+location+time on samec on click event>
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date();    window.print();getLocation();"     >Print
+</button>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+var x = document.getElementById("demo1");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  " /Longitude: " + position.coords.longitude;
+}
+document.getElementById("demo1").innerHTML=getLocation();
+</script>
+
+
+
+</body>
+</html>
+=====================================================
+<!-- Generating random otp -->
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Map Objects</h2>
+<p>Using Map.forEach():</p>
+
+<p id="demo"></p>
+
+<script>
+
+// Function to generate OTP
+function generateOTP() {
+		
+	// Declare a digits variable
+	// which stores all digits
+	var digits = '01PkK35klopmno';
+    // var string = '0123456789abcdefghijklmnopqrs
+    //tuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    
+	let OTP = '';
+	for (let i = 0; i < 6; i++ ) {
+		OTP += digits[Math.floor(Math.random() * 10)];
+	}
+	return OTP;
+}
+
+document.write("OTP of 6 digits: ")
+document.write( generateOTP() );
+</script>					
+
+</body>
+</html>
+=============================================
+
+
+
+
+
+
+
+
+
+
+
