@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<style>
+/*remove on cash*/
+
+
+.image {
+  display: ;
+  width:250px ;
+  height: 280px;
+  padding:5px;
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  top:0;
+  background-color: ;
+  /*overflow: hidden;*/
+  width: ;
+   width:240px ;
+   margin-left:35px;
+ 
+ 
+  transition: .5s ease;
+  margin-top:80px;
+}
+
+.container:hover .overlay {
+top:0;
+  height: 30%;
+  margin-top:191px;
+  background:#7B7B7B 0% 0% no-repeat padding-box;
+  
+ opacity: 0.56;
+  overflow: hidden;
+  color:red;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.example {
+    background-color: ;
+}
+
+@media screen and (max-width:960px) {
+    div.example {
+        display: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+    div.example1 {
+        display: none;
+    }
+}
+
+
+.nav-pills a{
+  color:black;
+  font-size:22px;
+  }
+ .nav-pills a:focus,.nav-pills a:hover {
+    color:black ;
+    text-decoration: underline;
+    background:transparent;
+}
+.nav-pillsa:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+    background-color:;
+}
+
+
+.nav-pills>li.active>a{
+color:#A44BA2; /*active color*/
+     background-color:transparent; 
+}
+
+.nav-pills>li.active>a::after{
+
+ content:"";
+     color:; /*active color*/
+     background-color:#A44BA2; 
+     
+     display:block;
+     width:70%;
+     height:3px;
+     margin-left:1%;
+     margin-top:5%;
+     border:transparent;
+
+
+}
+.nav-pills>li.active>a:focus
+ {
+     color:#A44BA2; /*active color*/
+     background-color:transparent; 
+    
+     }
+
+.nav-pills>li.active>a:hover{
+color:#A44BA2; /*active color*/
+     background-color:transparent; 
+}
+
+/*test*/
+
+ .nav-pills>li.active>a:focus::after {
+     content:"";
+     color:; /*active color*/
+     background-color:#A44BA2; 
+     
+     display:block;
+     width:70%;
+     height:3px;
+     margin-left:1%;
+     margin-top:5%;
+     border:transparent;
+     }
+
+ /*test*/
+nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;/*on hover setup*/
+     background-color: transparent; 
+     font-size:20px;
+}
+ 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: none;
+}
+  
+/* Scrollable */
+
+.scroll{  
+   overflow-x:  scroll;
+    overflow-y: hidden;    
+}
+
+.nav-item .nav-link{
+    color: silver !important ;
+    padding-top: 2px;
+
+}
+.nav-item > .nav-link:hover{
+    background-color: transparent;
+
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color:transparent !important;
+    font: normal normal bold 36px/60px Merriweather;
+    color: #A44BA2 !important;
+    }
+    
+.background .nav-pills .active::after{
+   content: '';
+   width: 55%;
+   height: 5px;
+   background-color: #A44BA2;
+   margin-left: 15px;
+   display:block;
+                       
+}
+.active{
+    margin-top:-10px
+
+}
+
+.kklo li{
+width:250px;
+height:280px;
+margin:20px;
+/*border:2px solid red;*/
+}
+
+.midnev1 .nav-pills{
+    width: 1580px;  
+}
+
+</style>
+</head>
+<body>
+<div class="example">
+<div class="row">
+
+<div class="col-sm-3" style="">
+
+<div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+
+<div class="col-sm-3" >
+
+<div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  
+  <div class="col-sm-3">
+
+<div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  <div class="col-sm-3">
+
+<div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+  
+ 
+ </div>
+ </div>
+ 
+ 
+<div class="example1">
+
+<div class="midnev1">
+
+  
+        
+		  
+          
+         <div class="scroll">
+         
+        <ul class="nav nav-pills kklo"  >
+          <li >
+          
+          <div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay" style=" margin-left:20px;">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+          
+          </li>
+          
+          
+          <li>
+          
+          <div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay" style=" margin-left:20px;">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div> 
+  
+  </li>
+          
+          
+          <li>
+          
+           <div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay" style=" margin-left:20px;">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div> 
+          
+          </li>
+          
+          
+          <li>
+           <div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay" style=" margin-left:20px;">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div> 
+          </li>
+          
+          
+          <li> <div class="container">
+
+  <img src="cinqueterre.jpg" alt="Avatar" class="image">
+  
+  <div class="overlay" style=" margin-left:20px;">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div> </li>
+  
+
+        </ul>
+        
+      </div>
+</div>
+
+
+</div> 
+
+
+ 
+</body>
+</html>
+

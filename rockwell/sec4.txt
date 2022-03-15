@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.niki{
+
+    position: absolute;
+    border: 2px solid red ;
+    height:100px;
+    width:100%;
+}
+.nik{
+
+   /* position: absolute;*/
+    border: 2px solid red;
+    height:100px;
+   }
+   .nik1{
+
+    position: relative;
+    border: 2px solid green;
+    height:150px;
+    margin-top:-25px;
+   }
+.nik2{
+border:5px solid lime;
+margin-top:35px;
+margin-bottom:;
+margin-left:-95px;
+margin-right:30px;
+padding:15px;
+
+}
+</style>
+<body>
+<h1>Hei4</h1>
+<br/><br/>
+<div class="niki">
+<div class="row">
+<div class="col-xs-6 nik"></div>
+<div class="col-xs-6 nik1">
+<div class="nik2">2</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

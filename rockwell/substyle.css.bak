@@ -1,0 +1,2683 @@
+        body,
+        html {
+            overflow-x: hidden;
+        }
+        
+        .navbar.navbar-default.border-bottom.fixed-top {
+            position: fixed !important;
+            background-color: black !important;
+            opacity: 9;
+            padding-bottom: 5px;
+        }
+        
+        .logo_nav.header-img2.forbes {
+            float: left;
+            margin-right: 10px;
+            padding-right: 30px;
+            margin-top: -10px;
+        }
+        
+        .logo_nav.header-img2 {
+            margin-top: -10px;
+        }
+        
+        .hed-color {
+            text-align: left;
+            font: normal normal 600 60px/80px Poppins !important;
+            letter-spacing: 0px;
+            color: #D9562A;
+            text-transform: uppercase;
+            opacity: 1;
+        }
+        
+        .logo_nav.forbes {
+            padding-right: 20px;
+        }
+        
+        .overview-hed {
+            width: 123px;
+            height: 33px;
+            text-align: left;
+            font-size: 18px !important;
+            font-weight: 550 !important;
+            font-family: 'Poppins' !important;
+            letter-spacing: 0px;
+            color: #D9562A;
+            text-transform: uppercase;
+            opacity: 1;
+        }
+        
+        .overview-hed1 {
+            font-size: 26px !important;
+            font-weight: 500 !important;
+        }
+        
+        .overview-p {
+            font-size: 15px !important;
+            font-weight: normal !important;
+            font-family: 'Segoe UI' !important;
+        }
+        
+        .spkr-Image {
+            padding: 5px;
+        }
+        
+        .speaker-name {
+            font-size: 15px !important;
+            font-weight: normal !important;
+            font-family: 'Poppins' !important;
+            margin-left: -21px !important;
+        }
+        
+        .speaker-des {
+            margin-top: -12px !important;
+            font-size: 13px !important;
+            font-weight: normal !important;
+            font-family: 'Poppins' !important;
+            margin-left: -21px;
+        }
+        
+        .agenda-details-spkr {
+            font-size: 13.5px;
+            font-weight: normal;
+            font-family: 'Poppins' !important;
+            margin-left: 142px;
+            color: #121E48;
+        }
+        
+        .attend,
+        .afford {
+            font-size: 24px !important;
+            font-weight: normal;
+            font-family: 'Poppins' !important;
+            color: #fff;
+        }
+        
+        .col-md-5.who-start {
+            padding-top: 57px!important;
+            padding-left: 100px;
+            text-align: center !important;
+            padding-bottom: 0px;
+        }
+        /* white papers */
+        
+        .card-img-top {
+            height: 90vh;
+            margin-top: 150px;
+        }
+        
+        .owl-prev {
+            color: red;
+            left: 80%;
+            background: red;
+        }
+        
+        .owl-next {
+            color: red;
+            left: 89%;
+            background: red;
+        }
+        
+        .owl-next,
+        .owl-prev {
+            position: absolute;
+            top: -95px;
+        }
+        
+        .owl-next span,
+        .owl-prev span {
+            font-size: 80px;
+            color: #D9562A;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 45px;
+            cursor: pointer;
+            text-align: left;
+            font: normal normal bold 50px/32px Merriweather;
+            letter-spacing: 0px;
+            opacity: 1;
+            background-color: white;
+            border: 2px solid #D9562A;
+            border-radius: 50%;
+            opacity: 1;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        owl-carousel {
+            margin-top: 121px !important;
+        }
+        
+        .white-papers {
+            width: 561px;
+            height: 51px;
+            text-align: left;
+            font: normal normal medium 36px/46px Poppins !important;
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+        }
+        
+        .caseImages {
+            width: 524px !important;
+            height: 310px;
+            object-fit: fill;
+        }
+        
+        .caseImages1 {
+            width: 524px !important;
+            height: 310px;
+            object-fit: fill;
+            margin-left: 50px !important;
+        }
+        
+        .case-text-heading {
+            width: 523px;
+            height: 58px;
+            text-align: left;
+            font: normal normal 500 18px/30px Poppins !important;
+            letter-spacing: 0px;
+            color: #2D2D2D;
+            opacity: 1;
+            margin-left: 27px;
+            margin-top: 10px !important;
+        }
+        
+        .case-text-heading1 {
+            width: 523px;
+            height: 58px;
+            text-align: left;
+            font: normal normal 500 18px/30px Poppins !important;
+            letter-spacing: 0px;
+            color: #2D2D2D;
+            opacity: 1;
+            margin-left: 27px;
+            margin-top: 10px !important;
+        }
+        
+        .case-Text {
+            margin-left: 27px;
+            margin-top: 8px;
+            text-align: left;
+            font: normal normal normal 12px/28px Poppins !important;
+            letter-spacing: 0px;
+            color: #767676;
+            opacity: 1;
+            width: 508px;
+        }
+        
+        .case-Text1 {
+            margin-left: 27px;
+            margin-top: 8px;
+            text-align: left;
+            font: normal normal normal 12px/28px Poppins !important;
+            letter-spacing: 0px;
+            color: #767676;
+            opacity: 1;
+        }
+        
+        .readMore {
+            text-align: left;
+            font: normal normal bold 14px/29px Poppins !important;
+            letter-spacing: 0px;
+            color: #D9562A;
+            opacity: 1;
+            margin-left: 27px;
+            margin-bottom: 20px;
+        }
+        
+        .readMore1 {
+            text-align: left;
+            font: normal normal bold 14px/29px Poppins !important;
+            letter-spacing: 0px;
+            color: #D9562A;
+            opacity: 1;
+            margin-left: 27px;
+            margin-bottom: 20px;
+        }
+        
+        @media (min-width:320px) and (max-width: 326px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            #agenda-time {
+                height: 135px
+            }
+            .col-sm-4.text-center {
+                width: 331px;
+                margin-left: -16px;
+            }
+            .logo_nav.header-img2.forbes {
+                float: left;
+                margin-right: -78px !important;
+                height: 20px;
+                padding-left: 10px;
+            }
+            .col-md-7.who-start1 {
+                height: 499px !important;
+            }
+            .logo_nav.header-img2.cnbc {
+                margin-right: 111px;
+            }
+            .mar-l {
+                margin-left: 76px !important;
+            }
+            .agendadetails {
+                width: 134px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 16px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 297px !important;
+                height: 309px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 119px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 55px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 0px;
+                width: 279px;
+            }
+            .afford-li.text-afford2 {
+                color: white;
+            }
+            .text-li p {
+                margin-top: -41px;
+                margin-left: 130px;
+            }
+            .afford-li.text-afford {
+                color: white;
+                padding-left: 1px !important;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 41px/80px Poppins !important;
+                width: 269px;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -54px;
+            }
+            .video-text {
+                font: normal normal 500 17px/42px Poppins !important;
+                margin-top: 15px !important;
+            }
+            #video .fa-angle-right {
+                right: -19px !important;
+            }
+            #video .fa-angle-left {
+                left: -25px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px !important;
+                padding-top: 17px;
+            }
+            .who-Image2 {
+                margin-left: -46px !important;
+                padding-top: 18px;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .col-md-5.who-start {
+                padding-top: 60px !important;
+            }
+            .case-text-heading1 {
+                width: 297px;
+                font: normal normal 500 14px/30px Poppins !important;
+                margin-left: 39px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 39px !important;
+            }
+            .readMore1 {
+                margin-left: 39px !important;
+            }
+            .afford-li {
+                width: 238px;
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-top: 42px !important;
+                margin-left: -15px !important;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -41px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-left:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: 0px !important;
+            }
+            .fa.fa-angle-left {
+                margin-top: 22px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -225px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 291px !important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 14px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 42px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 42px;
+                width: 276px !important;
+            }
+            .readMore {
+                margin-left: 42px;
+            }
+            .img-orange {
+                object-fit: cover;
+                opacity: 0.5;
+            }
+            .who-Image {
+                float: left;
+            }
+            .who-Image1 {
+                float: left;
+                margin-top: 37px;
+                margin-left: -55px;
+            }
+            .who-Image2 {
+                float: left;
+                margin-top: 52px !important;
+                margin-left: 2px;
+            }
+            .who-Image1 {
+                margin-left: -53px !important;
+            }
+            .who-name1 {
+                margin-left: 130px;
+                margin-top: 15px !important;
+                padding-top: 39px !important;
+            }
+            .who-name2 {
+                margin-left: 130px;
+                padding-top: 65px !important;
+            }
+            .who-name3 {
+                margin-left: 130px;
+                padding-top: 65px !important;
+            }
+            .col-md-7.who-start1 {
+                height: 400px;
+            }
+            .owl-item.active {
+                width: 343px !important;
+            }
+            .afford-li.text-afford3 {
+                padding-left: 159px !important;
+                margin-top: -40px;
+            }
+            .text-align {
+                color: white;
+                margin-top: -10px !important;
+                padding-left: 2px !important;
+            }
+        }
+        
+        @media (min-width:327px) and (max-width: 335px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .col-sm-4.text-center {
+                width: 331px;
+                margin-left: -16px;
+            }
+            .logo_nav.header-img2.forbes {
+                float: left;
+                margin-right: -78px !important;
+                height: 20px;
+                padding-left: 10px;
+            }
+            .col-md-7.who-start1 {
+                height: 499px !important;
+            }
+            .logo_nav.header-img2.cnbc {
+                margin-right: 111px;
+            }
+            .mar-l {
+                margin-left: 76px !important;
+            }
+            .agendadetails {
+                width: 134px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 16px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 297px !important;
+                height: 122px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 116px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 91px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 0px;
+                width: 279px;
+            }
+            .afford-li.text-afford2 {
+                color: white;
+            }
+            .text-li p {
+                margin-top: -41px;
+                margin-left: 130px;
+            }
+            .afford-li.text-afford {
+                color: white;
+                padding-left: 1px !important;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 41px/80px Poppins !important;
+                width: 269px;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -54px;
+            }
+            .video-text {
+                font: normal normal 500 17px/42px Poppins !important;
+                margin-top: 15px !important;
+            }
+            #video .fa-angle-right {
+                right: -83px !important;
+            }
+            #video .fa-angle-left {
+                left: -40px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px !important;
+                padding-top: 17px;
+            }
+            .who-Image2 {
+                margin-left: -46px !important;
+                padding-top: 18px;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .col-md-5.who-start {
+                padding-top: 60px !important;
+            }
+            .case-text-heading1 {
+                width: 297px;
+                font: normal normal 500 14px/30px Poppins !important;
+                margin-left: 39px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 39px !important;
+            }
+            .readMore1 {
+                margin-left: 39px !important;
+            }
+            .afford-li {
+                width: 277px;
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-top: 42px !important;
+                margin-left: -15px !important;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -41px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-left:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: -13px !important;
+            }
+            .fa.fa-angle-left {
+                margin-top: 22px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -225px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 282px !important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 16px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 46px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 46px;
+				width:270px !important;
+            }
+            .readMore {
+                margin-left: 46px;
+            }
+            .img-orange {
+                object-fit: cover;
+                opacity: 0.5;
+            }
+            .who-Image {
+                float: left;
+            }
+            .who-Image1 {
+                float: left;
+                margin-top: 37px;
+                margin-left: -55px;
+            }
+            .who-Image2 {
+                float: left;
+                margin-top: 52px !important;
+                margin-left: 2px;
+            }
+            .who-Image1 {
+                margin-left: -53px !important;
+            }
+            .who-name1 {
+                margin-left: 130px;
+                margin-top: 15px !important;
+                padding-top: 39px !important;
+            }
+            .who-name2 {
+                margin-left: 130px;
+                padding-top: 65px !important;
+            }
+            .who-name3 {
+                margin-left: 130px;
+                padding-top: 65px !important;
+            }
+            .col-md-7.who-start1 {
+                height: 400px;
+            }
+            .owl-item.active {
+                width: 343px !important;
+            }
+            .afford-li.text-afford3 {
+                padding-left: 159px !important;
+                margin-top: -40px;
+            }
+            .text-align {
+                color: white;
+                margin-top: -10px !important;
+                padding-left: 2px !important;
+            }
+        }
+        
+        @media (min-width:336px) and (max-width: 348px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .col-sm-4.text-center {
+                width: 331px;
+                margin-left: -16px;
+            }
+            .logo_nav.header-img2.forbes {
+                float: left;
+                margin-right: -78px !important;
+                height: 20px;
+                padding-left: 10px;
+            }
+            .col-md-7.who-start1 {
+                height: 499px !important;
+            }
+            .logo_nav.header-img2.cnbc {
+                margin-right: 111px;
+            }
+            .mar-l {
+                margin-left: 76px !important;
+            }
+            .agendadetails {
+                width: 134px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 16px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 297px !important;
+                height: 252px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 131px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 91px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 0px;
+                width: 279px;
+            }
+            .afford-li.text-afford2 {
+                color: white;
+            }
+            .text-li p {
+                margin-top: -41px;
+                margin-left: 130px;
+            }
+            .afford-li.text-afford {
+                color: white;
+                padding-left: 1px !important;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 41px/80px Poppins !important;
+                width: 269px;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -54px;
+            }
+            .video-text {
+                font: normal normal 500 17px/42px Poppins !important;
+                margin-top: 15px !important;
+            }
+            #video .fa-angle-right {
+                right: -17px !important;
+            }
+            #video .fa-angle-left {
+                left: -40px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px !important;
+                padding-top: 17px;
+            }
+            .who-Image2 {
+                margin-left: -46px !important;
+                padding-top: 18px;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .col-md-5.who-start {
+                padding-top: 60px !important;
+            }
+            .case-text-heading1 {
+                width: 297px;
+                font: normal normal 500 14px/30px Poppins !important;
+                margin-left: 39px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 39px !important;
+            }
+            .readMore1 {
+                margin-left: 39px !important;
+            }
+            .afford-li {
+                width: 277px;
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-top: 42px !important;
+                margin-left: -15px !important;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -41px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-left:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: -5px !important;
+            }
+            .fa.fa-angle-left {
+                margin-top: 22px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -225px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 281px !important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 16px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 46px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 46px;
+				width:270px;
+            }
+            .readMore {
+                margin-left: 46px;
+            }
+            .img-orange {
+                object-fit: cover;
+                opacity: 0.5;
+            }
+            .who-Image {
+                float: left;
+            }
+            .who-Image1 {
+                float: left;
+                margin-top: 37px;
+                margin-left: -55px;
+            }
+            .who-Image2 {
+                float: left;
+                margin-top: 52px !important;
+                margin-left: 2px;
+            }
+            .who-Image1 {
+                margin-left: -53px !important;
+            }
+            .who-name1 {
+                margin-left: 130px;
+                margin-top: 15px !important;
+                padding-top: 39px !important;
+            }
+            .who-name2 {
+                margin-left: 130px;
+                padding-top: 65px !important;
+            }
+            .who-name3 {
+                margin-left: 130px;
+                padding-top: 65px !important;
+            }
+            .col-md-7.who-start1 {
+                height: 400px;
+            }
+            .owl-item.active {
+                width: 343px !important;
+            }
+            .afford-li.text-afford3 {
+                padding-left: 159px !important;
+                margin-top: -40px;
+            }
+            .text-align {
+                color: white;
+                margin-top: -10px !important;
+                padding-left: 2px !important;
+            }
+            .img-size {
+                width: 322px;
+                margin-left: 27px;
+            }
+        }
+        
+        @media (min-width:349px) and (max-width: 360px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .img-size {
+                    width: 113% !important;
+    padding-left: 44px !important;
+    padding-right: 12px;            }
+            .agendadetails {
+                width: 99px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 14px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 321px !important;
+                height: 252px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: -47px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 140px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 69px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 20px;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 38px/80px Poppins !important;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -8px;
+            }
+            .video-text {
+                font: normal normal 600 18px/42px Poppins !important;
+            }
+            #video .fa-angle-right {
+                right: -23px !important;
+            }
+            #video .fa-angle-left {
+                left: -23px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px;
+            }
+            .who-Image2 {
+                margin-left: -325px !important;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .case-text-heading1 {
+                width: 238px;
+                font: normal normal 500 15px/30px Poppins !important;
+                margin-left: 48px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 48px !important;
+            }
+            .readMore1 {
+                margin-left: 48px !important;
+            }
+            .afford-li {
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-top: 42px !important;
+                margin-left: -15px !important;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -41px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-left:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: 0px !important;
+            }
+            .fa.fa-angle-left {
+                margin-top: 22px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -257px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 282px !important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 16px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 46px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 46px;
+                width: 287px !important;
+            }
+            .readMore {
+                margin-left: 46px;
+            }
+        }
+        
+        @media (min-width:361px) and (max-width: 380px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-left: -40px !important;
+                margin-top: 3px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -41px !important;
+            }
+            .fa-angle-left:after,
+            .fa-angle-left:before {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: -30px !important;
+            }
+            /* .owl-prev {
+        margin-left: -109px !important;
+    } */
+            .fa.fa-angle-left {
+                margin-top: 71px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -225px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 291px !important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 16px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 46px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 46px;
+                width: 229px !important;
+            }
+            .readMore {
+                margin-left: 46px;
+            }
+            .agendadetails {
+                width: 99px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 14px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 337px !important;
+                height: 252px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 0px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 150px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 69px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 20px;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 38px/80px Poppins !important;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -8px;
+            }
+            .video-text {
+                font: normal normal 600 18px/42px Poppins !important;
+            }
+            #video .fa-angle-right {
+                right: -23px !important;
+            }
+            #video .fa-angle-left {
+                left: -25px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+                padding-top: 44px;
+            }
+            .afford-li.text-afford3 {
+                padding-left: 44px !important;
+                margin-top: -40px;
+            }
+            .text-align {
+                color: white;
+                margin-top: -40px;
+                padding-left: 144px !important;
+            }
+            .who-Image {
+                margin-left: -52px;
+            }
+            .who-Image2 {
+                margin-left: -380px !important;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .case-text-heading1 {
+                width: 307px;
+                font: normal normal 500 15px/30px Poppins !important;
+                margin-left: 48px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 48px !important;
+            }
+            .readMore1 {
+                margin-left: 48px !important;
+            }
+            .afford-li {
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+            .thumb11 {
+                padding-left: 23px;
+            }
+            .owl-carousel .owl-item img {
+                display: block;
+                width: 108% !important;
+                padding-left: 39px !important;
+            }
+        }
+        
+        @media (min-width:380px) and (max-width: 384px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .img-size {
+                width: 108% !important;
+                padding-left: 37px !important;
+            }
+            .agendadetails {
+                width: 99px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 14px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 357px !important;
+                height: 252px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 150px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 69px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 20px;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 38px/80px Poppins !important;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -8px;
+            }
+            .video-text {
+                font: normal normal 600 18px/42px Poppins !important;
+            }
+            #video .fa-angle-right {
+                right: -23px !important;
+            }
+            #video .fa-angle-left {
+                left: -15px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px;
+            }
+            .who-Image2 {
+                margin-left: -383px !important;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .case-text-heading1 {
+                width: 344px;
+                font: normal normal 500 15px/30px Poppins !important;
+                margin-left: 40px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 40px !important;
+            }
+            .readMore1 {
+                margin-left: 40px !important;
+            }
+            .afford-li {
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+            .thumb11 {
+                padding-left: 23px;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-top: 42px !important;
+                margin-left: -63px !important;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -48px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-left:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: -63px !important;
+            }
+            .fa.fa-angle-left {
+                margin-top: 22px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -193px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 291px !important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 16px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 56px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 56px;
+                width: 304px !important;
+            }
+            .readMore {
+                margin-left: 56px;
+            }
+        }
+        
+        @media (min-width:400px) and (max-width: 419px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .img-size {
+                width: 107% !important;
+                padding-left: 38px !important;
+            }
+            .owl-prev.disabled,
+            .owl-prev {
+                margin-left: -29px !important;
+                margin-top: 3px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: 10px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -41px !important;
+            }
+            .fa-angle-left:after,
+            .fa-angle-left:before {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: -80px !important;
+            }
+            /* .owl-prev {
+            margin-left: -109px !important;
+             } */
+            .fa.fa-angle-left {
+                margin-top: 71px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -225px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .case-text-heading {
+                width: 291px!important;
+                height: 58px;
+                text-align: left;
+                font: normal normal 500 16px/30px Poppins !important;
+                letter-spacing: 0px;
+                color: #2D2D2D;
+                opacity: 1;
+                margin-left: 42px;
+                margin-top: 10px !important;
+            }
+            .case-Text {
+                margin-left: 42px;
+                width: 341px !important;
+            }
+            .readMore {
+                margin-left: 42px;
+            }
+            .agendadetails {
+                width: 152px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 14px Segoe UI !important;
+            }
+            .details_class {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 376px !important;
+                height: 252px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 150px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 69px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 20px;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 38px/80px Poppins !important;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -8px;
+            }
+            .video-text {
+                font: normal normal 600 18px/42px Poppins !important;
+            }
+            #video .fa-angle-right {
+                right: -30px !important;
+            }
+            #video .fa-angle-left {
+                left: -40px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px;
+            }
+            .who-Image2 {
+                margin-left: -376px !important;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .case-text-heading1 {
+                width: 308px;
+                font: normal normal 500 15px/30px Poppins !important;
+                margin-left: 41px !important;
+            }
+            .case-Text1 {
+                margin-top: 35px !important;
+                margin-left: 41px !important;
+            }
+            .readMore1 {
+                margin-left: 41px !important;
+            }
+            .afford-li {
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+        }
+        
+        @media (min-width:419px) and (max-width: 470px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .owl-prev,
+            .owl-prev.disabled {
+                margin-left: -112px !important;
+                margin-top: 45px !important;
+            }
+            .fa-angle-right:before,
+            .fa-angle-right:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-right: -173px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-left:after {
+                font-size: 25px !important;
+                margin-top: -10px !important;
+                margin-left: -364px !important;
+            }
+            .fa.fa-angle-left {
+                margin-top: 22px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                margin-left: -153px;
+                font-weight: 600;
+            }
+            .fa.fa-angle-right {
+                margin-top: 28px !important;
+                color: #D9562A;
+                border: none !important;
+                border-radius: none !important;
+                padding: 0px 10px !important;
+                margin-left: -40px;
+                font-weight: 600;
+            }
+            .owl-item.active {
+                width: 433.333px !important;
+            }
+            .agendadetails {
+                width: 168px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 15px Segoe UI !important;
+            }
+			.img-size{
+				
+				width: 100%;
+    padding-left: 56px;
+			}
+            .details {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 394px !important;
+                height: 252px;
+            }
+            .owl-prev.disabled {
+                margin-left: -111px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 150px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 69px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 20px;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 38px/80px Poppins !important;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -8px;
+            }
+            .video-text {
+                font: normal normal 600 18px/42px Poppins !important;
+            }
+            #video .fa-angle-right {
+                right: -12px !important;
+            }
+            #video .fa-angle-left {
+                left: -25px !important;
+            }
+            #video .owl-carousel .owl-item img {
+                width: 96% !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px;
+            }
+            .who-Image2 {
+                margin-left: -373px !important;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .case-text-heading1,
+            .case-text-heading {
+                width: 344px;
+                font: normal normal 500 17px/30px Poppins !important;
+            }
+            .case-text-heading1,
+            .case-text-heading {
+                margin-left: 40px !important;
+            }
+            .case-Text1,
+            .case-Text {
+                margin-top: 35px !important;
+                margin-left: 42px !important;
+                width: 375px !important;
+            }
+            .readMore1,
+            .readMore {
+                margin-left: 42px !important;
+            }
+            .afford-li {
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+        }
+        
+        @media (min-width:471px) and (max-width: 500px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+			
+			
+			.fa.fa-angle-left {
+ margin-left: -22px;
+}
+		
+.fa.fa-angle-right {
+margin-right: -68px;
+    margin-top: -150px;
+}
+.img-size{
+	
+	width: 106% !important;
+    padding-left: 39px;
+}
+		
+			
+			
+            .agendadetails {
+                width: 204px !important;
+                height: 17px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #D9562A;
+                opacity: 1;
+                margin-top: -31px;
+                margin-left: 132px !important;
+                font: normal normal 600 16px Segoe UI !important;
+            }
+            details {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 441px !important;
+                height: 310px;
+            }
+            .owl-prev.disabled {
+                margin-left: -40px !important;
+                margin-top: 42px;
+            }
+            .owl-next {
+                margin-left: -45px;
+                margin-top: 42px;
+            }
+            .owl-next span {
+                margin-left: -40px;
+                margin-top: 42px;
+            }
+            .owl-prev span {
+                margin-left: -80px;
+                margin-top: 42px;
+            }
+            .caseImages {
+                width: 341px !important;
+                height: 310px;
+                object-fit: fill;
+                margin-left: 32px;
+            }
+            .mps {
+                font: normal normal 400 29.8px/42px Poppins !important;
+            }
+            .agenda {
+                width: 113px !important;
+            }
+            .agenda-details-spkr {
+                margin-left: -8px !important;
+                margin-top: 69px;
+            }
+            .afford,
+            .afford-li {
+                padding-left: 20px;
+            }
+            .owl-item.active {
+                margin-left: -38px;
+                margin-right: 0px!important;
+            }
+            .hed-color {
+                font: normal normal 600 38px/80px Poppins !important;
+            }
+            .navbar-brand.logo-size {
+                margin-top: -8px;
+            }
+            .video-text {
+                font: normal normal 600 18px/42px Poppins !important;
+            }
+             .fa-angle-right {
+                right: -82px!important;
+            }
+            .fa-angle-left {
+                left: -40px !important;
+            }
+            .attend,
+            .afford {
+                font-size: 19px !important;
+                font-weight: normal;
+                font-family: 'Poppins' !important;
+                color: #fff;
+            }
+            .who-Image {
+                margin-left: -52px;
+            }
+            .who-Image2 {
+                margin-left: -374px !important;
+            }
+            .who-name1 {
+                margin-left: 45px!important;
+            }
+            .who-start p {
+                padding-left: 0px !important;
+            }
+            .who-name2,
+            .who-name3 {
+                margin-left: 49px !important;
+            }
+            .case-text-heading1 {
+				margin-left:45px !important;
+                width: 341px;
+                font: normal normal 500 15px/30px Poppins !important;
+            }
+            .case-Text1 {
+					margin-left:45px !important;
+                margin-top: 35px !important;
+            }
+			.readMore1{
+				
+					margin-left:45px !important;
+			}
+			
+			
+			.case-text-heading {
+    width: 460px !important;
+   
+			margin-left: 41px !important ; }
+			.readMore{
+				
+				margin-left: 41px !important ;
+				
+		
+			}
+			
+			
+             .case-Text {
+			 margin-left: 44px;
+			 width: 402px !important;
+
+			 
+			 }		
+ 
+
+ 
+            .afford-li {
+                padding-top: 0px !important;
+                font-size: 12px !important;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 850px) {
+            html,
+            body {
+                overflow-x: hidden;
+            }
+            .register_nav {
+                margin-top: -27px !important;
+            }
+            .nav>li>a {
+                padding: 0px 9px !important;
+            }
+            .logo_nav.header-img2 {
+                margin-left: -21px !important;
+            }
+            .thumb11 {
+                margin-left: 212px;
+            }
+            .nav.navbar-nav.navbar-right {
+                margin-top: -33px !important;
+                margin-right: 1px;
+                margin-left: 133px;
+            }
+            .agendadetails {
+                width: 535px !important;
+            }
+            .afford {
+                padding-left: 30px;
+            }
+            .afford-li {
+                padding-left: 30px;
+            }
+            .case-text-heading1 {
+                margin-left: 1px !important;
+                margin-top: 10px !important;
+                width: 344px !important;
+                font-size: 16px !important;
+            }
+            .case-Text1 {
+                margin-left: 1px !important;
+                margin-top: 32px !important;
+            }
+            .readMore1 {
+                margin-left: 1px !important;
+            }
+            .case-text-heading {
+                width: 335px !important;
+                margin-left: 1px !important;
+                font-size: 16px !important;
+            }
+            .case-Text {
+                margin-left: 1px !important;
+            }
+            .readMore {
+                margin-left: 1px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-right:before,
+            .fa-angle-left:after,
+            .fa-angle-right:after {
+                font-size: 39px !important;
+            }
+            .fa.fa-angle-left,
+            .fa.fa-angle-right {
+                padding: 0px 12px !important;
+            }
+            .col-sm-4.text-center {
+                width: 342px;
+                margin-left: 7px;
+            }
+            .col-sm-4.footer-link.nav-text {
+                float: right;
+                margin-top: -30px;
+                margin-right: 24px;
+            }
+            .logo_nav.mar-l {
+                margin-left: -8px !important;
+            }
+            details {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 726px !important;
+    height: 250px;
+
+            }
+            .who-Image,
+            .who-Image1,
+            .who-Image2 {
+                margin-left: -559px !important;
+            }
+            .nav>li>a {
+                padding: 0px !important;
+            }
+            .register_nav {
+                padding-top: 12px;
+            }
+        }
+        
+        .video-text {
+            margin-top: 50px;
+        }
+        
+        .navbar-default {
+            border-color: black !important;
+        }
+        
+        .navbar-default .navbar-nav>.active>a,
+        .navbar-default .navbar-nav>.active>a:focus,
+        .navbar-default .navbar-nav>.active>a:hover {
+            background-color: black !important;
+            border: none !important;
+        }
+        
+        .navbar-default .navbar-nav>.active>a {
+            margin-top: 10px;
+        }
+        
+        .navbar-default .navbar-nav>.active>a:hover {
+            border: none !important;
+            font-size: 16px;
+        }
+        
+        .navbar-default .navbar-nav>a:hover {
+            font-size: 16px;
+        }
+        
+        .navbar-default .navbar-nav>.active>a:focus {
+            border: none !important;
+        }
+        
+        a:focus {
+            outline: none !important;
+            /* outline-offset: -2px; */
+        }
+        
+        @media (min-width: 768px) {
+            .navbar {
+                border-radius: 0px !important;
+            }
+        }
+        
+        .fa.fa-angle-left,
+        .fa.fa-angle-right {
+            margin-top: -103px;
+            color: #D9562A;
+            border: 2px solid #D9562A;
+            border-radius: 50%;
+            padding: 0px 15px;
+        }
+        
+        @media (max-width: 1200px) and (min-width:1024px) {
+            .case-text-heading1 {
+                margin-left: 1px !important;
+                margin-top: 10px !important;
+                width: 461px !important;
+            }
+            .case-Text1 {
+                margin-left: 1px !important;
+            }
+            .readMore1 {
+                margin-left: 1px !important;
+            }
+            .case-text-heading {
+                width: 471px !important;
+                margin-left: 1px !important;
+            }
+            .case-Text {
+                margin-left: 1px !important;
+            }
+            .readMore {
+                margin-left: 1px !important;
+            }
+            .afford-li.text-afford3 {
+                padding-left: 167px !important;
+                margin-top: -50px !important;
+            }
+            .col-md-5.who-start {
+                padding-bottom: 8px;
+            }
+            .col-sm-4.text-center {
+                width: 342px;
+                margin-left: 18px;
+            }
+            .col-sm-4.footer-link.nav-text {
+                float: right;
+                margin-top: -30px;
+                margin-right: 24px;
+            }
+        }
+        
+        .afford-li.text-afford {
+            color: white;
+            padding-left: 29px;
+        }
+        
+        .afford-li.text-afford3 {
+            color: white;
+            padding-left: 29px;
+        }
+        
+        @media (min-width: 851px) and (max-width: 991px) {
+            html,
+            body {
+                overflow-x: hidden;
+            }
+            .logo_nav.header-img2 {
+                margin-left: -21px !important;
+            }
+            .thumb11 {
+                margin-left: 212px;
+            }
+            .nav.navbar-nav.navbar-right {
+                margin-top: -30px !important;
+                margin-right: -92px !important;
+            }
+            .agendadetails {
+                width: 573px !important;
+                font: normal normal 600 18px Segoe UI !important;
+            }
+            .afford {
+                padding-left: 30px;
+            }
+            .afford-li {
+                padding-left: 30px;
+            }
+            .case-text-heading1 {
+                margin-left: 1px !important;
+                margin-top: 10px !important;
+                width: 344px !important;
+                font-size: 16px !important;
+            }
+            .case-Text1 {
+                margin-left: 1px !important;
+                margin-top: 32px !important;
+            }
+            .readMore1 {
+                margin-left: 1px !important;
+            }
+            .case-text-heading {
+                width: 335px !important;
+                margin-left: 1px !important;
+                font-size: 16px !important;
+            }
+            .case-Text {
+                margin-left: 1px !important;
+            }
+            .readMore {
+                margin-left: 1px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-right:before,
+            .fa-angle-left:after,
+            .fa-angle-right:after {
+                font-size: 39px !important;
+            }
+            .fa.fa-angle-left,
+            .fa.fa-angle-right {
+                padding: 0px 12px !important;
+            }
+            .col-sm-4.text-center {
+                width: 342px;
+                margin-left: -42px;
+            }
+            .col-sm-4.footer-link.nav-text {
+                float: right;
+                margin-top: -30px;
+                margin-right: 24px;
+            }
+            .logo_nav.mar-l {
+                margin-left: -8px !important;
+            }
+            details {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 800px !important;
+                height: 185px;
+            }
+        }
+        
+        @media (min-width: 992px) and (max-width: 1023px) {
+            html,
+            body {
+                overflow-x: hidden;
+            }
+            .logo_nav.header-img2 {
+                margin-left: -21px !important;
+            }
+            .thumb11 {
+                margin-left: 212px;
+            }
+            .nav.navbar-nav.navbar-right {
+                margin-top: -6px !important;
+            }
+            .agendadetails {
+                width: 573px !important;
+                font: normal normal 600 18px Segoe UI !important;
+            }
+            .afford {
+                padding-left: 30px;
+            }
+            .afford-li {
+                padding-left: 30px;
+            }
+            .case-text-heading1 {
+                margin-left: 1px !important;
+                margin-top: 10px !important;
+                width: 344px !important;
+                font-size: 16px !important;
+            }
+            .case-Text1 {
+                margin-left: 1px !important;
+                margin-top: 32px !important;
+            }
+            .readMore1 {
+                margin-left: 1px !important;
+            }
+            .case-text-heading {
+                width: 335px !important;
+                margin-left: 1px !important;
+                font-size: 16px !important;
+            }
+            .case-Text {
+                margin-left: 1px !important;
+            }
+            .readMore {
+                margin-left: 1px !important;
+            }
+            .fa-angle-left:before,
+            .fa-angle-right:before,
+            .fa-angle-left:after,
+            .fa-angle-right:after {
+                font-size: 39px !important;
+            }
+            .fa.fa-angle-left,
+            .fa.fa-angle-right {
+                padding: 0px 12px !important;
+            }
+            .col-sm-4.text-center {
+                width: 342px;
+                margin-left: -42px;
+            }
+            .col-sm-4.footer-link.nav-text {
+                float: right;
+                margin-top: -30px;
+                margin-right: 24px;
+            }
+            .logo_nav.mar-l {
+                margin-left: -8px !important;
+            }
+            details {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+                width: 800px !important;
+                height: 185px;
+            }
+            .afford-li.text-afford2 {
+                color: white;
+                padding-left: 29px;
+            }
+            .afford-li.text-afford3 {
+                color: white;
+                margin-left: 165px;
+                margin-top: -50px;
+            }
+            .col-md-5.who-start {
+                padding-bottom: 17px !important;
+            }
+        }
+        
+        .text-align {
+            color: white;
+            margin-top: -40px;
+            padding-left: 130px;
+        }
+        
+        .who-Image {
+            margin-left: -379px;
+            margin-top: 26px;
+        }
+        
+        .who-Image1 {
+            margin-left: -379px;
+            margin-top: 46px;
+        }
+        
+        .who-Image2 {
+            margin-left: -379px;
+            margin-top: 53px;
+        }
+        
+        .who-name1 {
+            margin-left: 114px!important;
+            margin-top: -41px !important;
+        }
+        
+        .who-start p {
+            padding-left: 0px !important;
+            margin-top: -42px !important;
+        }
+        
+        .who-name2 {
+            margin-left: 114px!important;
+            margin-top: -41px !important;
+        }
+        
+        .who-name3 {
+            margin-left: 114px!important;
+        }
+        
+        .nav>li>a:focus,
+        .nav>li>a:hover {
+            text-decoration: none;
+            background-color: black !important;
+        }
+        
+        .nav>li>a {
+            padding: 0px 10px !important;
+        }
+        /* Agenda for mobile */
+        
+        #Agenda1 {
+            display: none;
+        }
+        
+        @media (min-width: 320px) and (max-width: 500px) {
+            #Agenda_Desk {
+                display: none;
+            }
+            #Agenda1 {
+                display: block;
+            }
+            .nav>li {
+                padding-top: 8px !important;
+            }
+            .overview-hed1 {
+                font-size: 20px !important;
+                margin-top: -10px;
+            }
+            .logo_nav.mar-l.cnbc {
+                margin-left: -8px !important;
+            }
+            .logo_nav.header-img2.forbes {
+                margin-left: 10px !important;
+            }
+            .overview-hed {
+                margin-top: -14px;
+            }
+        }
+        
+        @media (min-width: 900px) and (max-width: 1440px) {
+            .carousel-caption {
+                margin-left: -61px !important;
+            }
+        }
+        
+        .nav.navbar-nav.navbar-right {
+            margin-top: 10px;
+        }
+        
+        .register_nav {
+            margin-top: -10px;
+        }
+        
+        .logo_nav.mar-l.cnbc {
+            height: 50px;
+        }
+        
+        @media (min-width: 500px) and (max-width: 700px) {
+            .item.active.res-img {
+                margin-top: 30px !important;
+            }
+            .agendadetails {
+                width: 330px !important;
+            }
+            .video-text.text-center {
+                font-size: 22px !important;
+            }
+             .fa-angle-left {
+                left: -52px !important;
+            }
+             .fa-angle-right {
+                right: -52px !important;
+            }
+        }
+        
+        @media (min-width: 450px) and (max-width: 550px) {
+            .item.active.res-img {
+                margin-top: 40px !important;
+            }
+        }
+        
+        @media (min-width: 320px) and (max-width: 450px) {
+            .item.active.res-img {
+                margin-top: 50px !important;
+            }
+        }
+        
+        .position {
+            margin-left: -10px;
+            color: white;
+        }
+        
+        .company {
+            margin-left: -10px;
+            margin-top: -18px;
+            color: white;
+        }
+        
+        .video-text.text-center {
+            text-align: left !important;
+        }
+        
+        @media (min-width: 768px) and (max-width: 890px) {
+            .who-name1,
+            .who-name2,
+            .who-name3 {
+                margin-left: 250px!important;
+            }
+        }
+        
+        @media (min-width: 385px) and (max-width: 399px) {
+            .img-size {
+                width: 108%!important;
+            }
+             .fa-angle-left {
+                left: -65px !important;
+                width: 59px !important;
+            }
+             .fa-angle-right {
+                right: -52px !important;
+            }
+            .case-Text1 {
+                margin-left: -8px;
+                margin-top: 31px !important;
+            }
+            .case-text-heading1 {
+                width: 347px;
+                margin-left: 3px;
+            }
+            .readMore1 {
+                margin-left: 3px;
+            }
+            .case-text-heading {
+                width: 334px !important;
+                margin-left: 2px !important;
+            }
+            .case-Text {
+                margin-left: 2px;
+                width: 351px;
+            }
+            .readMore {
+                margin-left: 2px;
+            }
+        }
+        
+        a.nav-register {
+            margin-top: 10px !important;
+        }
+
+
+
+@media(min-width: 900px) and (max-width : 768px) {
+
+.Agenda_Desk {
+display: none !important;
+}
+}
+
+
+
+
+@media (min-width:670px) and (max-width: 767px) {
+	
+	
+	 .who-name1,.who-name2,.who-name3 {
+    padding-left: 142px !important;
+	}
+	
+}

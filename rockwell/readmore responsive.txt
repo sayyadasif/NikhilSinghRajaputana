@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+
+/**/
+  .example {
+  background-color:green ;
+  padding: px;
+}
+
+@media screen and (max-width: 800px) {
+  div.example {
+    display: none;
+  }
+}
+
+.example1 {
+  background-color:#F5F5F5;
+  padding: px;
+}
+
+@media screen and (min-width: 800px) {
+  div.example1 {
+    display: none;
+  }
+}
+ 
+</style>
+</head>
+<body>
+
+<div class="example1">
+
+
+<p><a onclick="javascript:ShowHide('HiddenDiv')" style="color:#E62D86"><h3>read more</h3></a></p>
+
+<div class="mid" id="HiddenDiv" style="display: none;"><font face="Arial" size="+2" 
+
+color="" align="right"><p>The volume and variety of data that your organisation holds or accesses today is much greater than it was a few years ago. Next year it will be greater still. As your data resources grow, so do the opportunities to draw more profound, more powerful insights about your customers, competitive landscape and internal processes. In the last few years, digital transformation has been afoot at companies big and small. 2020 became a wakeup call for those that still needed a nudge. As we went indoors and work went remote, the only blueprint for survival worth its claim recommended.</p>
+</div>
+<script type="text/javascript">// <![CDATA[
+function ShowHide(divId)
+{
+if(document.getElementById(divId).style.display == 'none')
+{
+document.getElementById(divId).style.display='block';
+}
+else
+{
+document.getElementById(divId).style.display = 'none';
+}
+}
+// ]]></script>
+
+
+</div>
+
+<div class="example">
+
+The volume and variety of data that your organisation holds or accesses today is much greater than it was a few years ago. Next year it will be greater still. As your data resources grow, so do the opportunities to draw more profound, more powerful insights about your customers, competitive landscape and internal processes. In the last few years, digital transformation has been afoot at companies big and small. 2020 became a wakeup call for those that still needed a nudge. As we went indoors and work went remote, the only blueprint for survival worth its claim recommended.
+</div>
+
+
+
+</body>
+</html>

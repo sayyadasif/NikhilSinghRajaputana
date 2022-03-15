@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<style>
+/*remove on cash*/
+
+
+.image {
+  display: block;
+  width:250px ;
+  height: 280px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  top:0;
+  background-color: ;
+  /*overflow: hidden;*/
+  width: ;
+   width:250px ;
+   margin-left:30px;
+ 
+  transition: .5s ease;
+  margin-top:80px;
+}
+
+.container:hover .overlay {
+top:0;
+  height: 30%;
+  margin-top:196px;
+  background:#7B7B7B 0% 0% no-repeat padding-box;
+  
+ opacity: 0.56;
+  overflow: hidden;
+  color:red;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+
+<div class="col-sm-4" style="border:2px solid red;padding:;">
+
+<div class="container">
+
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+
+<div class="col-sm-4">
+
+<div class="container">
+
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  <div class="col-sm-4">
+
+<div class="container">
+
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  
+  <div class="overlay">
+    <div class="text">Hello niki</div>
+  </div>
+  
+  </div>
+  
+  </div>
+  
+ 
+ </div>
+</body>
+</html>
